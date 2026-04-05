@@ -1,0 +1,26 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace WebApp.Controllers
+{
+    public class CartController : Controller
+    {
+        public IActionResult Index()
+     {
+          return View();
+    }
+
+        [HttpPost]
+        public IActionResult AddItem(Guid productId, int quantity = 1)
+        {
+     // TODO: Add to cart logic
+  return RedirectToAction("Index");
+  }
+
+    [HttpPost]
+      public IActionResult RemoveItem(Guid productId)
+     {
+   // TODO: Remove from cart logic
+            return RedirectToAction("Index");
+        }
+    }
+}

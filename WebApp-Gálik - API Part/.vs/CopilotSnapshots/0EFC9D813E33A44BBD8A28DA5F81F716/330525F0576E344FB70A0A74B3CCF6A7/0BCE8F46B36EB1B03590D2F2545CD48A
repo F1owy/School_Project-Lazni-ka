@@ -1,0 +1,19 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace WebApp.Controllers
+{
+    public class ProductsController : Controller
+    {
+    public IActionResult Index(int? category)
+        {
+          ViewBag.Category = category;
+    return View();
+        }
+
+        public IActionResult Details(Guid id)
+     {
+  ViewBag.ProductId = id;
+     return View();
+        }
+    }
+}

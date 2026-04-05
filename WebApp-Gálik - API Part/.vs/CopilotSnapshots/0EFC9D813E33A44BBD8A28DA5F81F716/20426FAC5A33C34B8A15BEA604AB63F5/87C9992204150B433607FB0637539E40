@@ -1,0 +1,35 @@
+﻿@model Common.DTO.RegisterDTO
+@{
+    ViewData["Title"] = "Registrácia";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white text-center">
+<h4>Registrácia</h4>
+ </div>
+       <div class="card-body p-4">
+      <form asp-action="Register" method="post">
+  <div class="mb-3">
+       <label class="form-label">Meno</label>
+      <input type="text" class="form-control" asp-for="Name" required />
+    </div>
+       <div class="mb-3">
+   <label class="form-label">Email</label>
+  <input type="email" class="form-control" asp-for="Email" required />
+          </div>
+      <div class="mb-3">
+ <label class="form-label">Heslo</label>
+           <input type="password" class="form-control" asp-for="Password" required />
+    </div>
+        <button type="submit" class="btn btn-success w-100">Vytvoriť účet</button>
+       </form>
+      <hr>
+         <p class="text-center mb-0">Už máte účet? <a asp-action="Login">Prihláste sa</a></p>
+ </div>
+      </div>
+   </div>
+    </div>
+</div>

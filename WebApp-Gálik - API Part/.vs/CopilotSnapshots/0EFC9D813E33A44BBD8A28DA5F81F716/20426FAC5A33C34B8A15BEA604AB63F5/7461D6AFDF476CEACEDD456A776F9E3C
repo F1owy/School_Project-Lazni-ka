@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataLayer.entities
+{
+    public class ReviewEntity : BaseEntity
+    {
+        public long UserId { get; set; }
+        public long ProductId { get; set; }
+
+        public int Stars { get; set; }
+        public string Comment { get; set; }
+        public DateTime CreatedAt { get; set; }
+
+        public UserEntity User { get; set; }
+        public ProductEntity Product { get; set; }
+    }
+}

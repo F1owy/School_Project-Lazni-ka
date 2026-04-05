@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Domov";
+}
+
+<div class="bg-dark text-white py-5">
+    <div class="container text-center">
+        <h1 class="display-4">Vitajte v PhotoShop</h1>
+  <p class="lead">Profesionálne fotografické vybavenie</p>
+     <a href="/Products" class="btn btn-warning btn-lg mt-3">Prezrieť produkty</a>
+ </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Kategórie</h2>
+    <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-2">
+       <a href="/Products?category=1" class="text-decoration-none">
+  <div class="card text-center p-3">
+     <i class="bi bi-camera fs-1 text-primary"></i>
+    <p class="mt-2 mb-0">Fotoaparáty</p>
+ </div>
+     </a>
+    </div>
+        <div class="col-6 col-md-2">
+       <a href="/Products?category=2" class="text-decoration-none">
+     <div class="card text-center p-3">
+       <i class="bi bi-bullseye fs-1 text-primary"></i>
+    <p class="mt-2 mb-0">Objektívy</p>
+    </div>
+    </a>
+        </div>
+   <div class="col-6 col-md-2">
+   <a href="/Products?category=3" class="text-decoration-none">
+    <div class="card text-center p-3">
+            <i class="bi bi-lightbulb fs-1 text-primary"></i>
+   <p class="mt-2 mb-0">Svetlá</p>
+        </div>
+</a>
+   </div>
+  <div class="col-6 col-md-2">
+         <a href="/Products?category=4" class="text-decoration-none">
+       <div class="card text-center p-3">
+     <i class="bi bi-bag fs-1 text-primary"></i>
+   <p class="mt-2 mb-0">Príslušenstvo</p>
+   </div>
+  </a>
+     </div>
+        <div class="col-6 col-md-2">
+            <a href="/Products?category=5" class="text-decoration-none">
+  <div class="card text-center p-3">
+   <i class="bi bi-mic fs-1 text-primary"></i>
+              <p class="mt-2 mb-0">Audio</p>
+       </div>
+          </a>
+ </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Produkty</h2>
+    <div class="row g-4">
+        @for (int i = 1; i <= 4; i++)
+        {
+            <div class="col-md-6 col-lg-3">
+<div class="card h-100">
+<div class="bg-secondary" style="height: 150px;"></div>
+      <div class="card-body">
+       <h5 class="card-title">Produkt @i</h5>
+  <p class="text-muted">Popis produktu</p>
+      <p class="fw-bold text-primary">@(999 + i * 100) €</p>
+              <a href="#" class="btn btn-primary w-100">Do košíka</a>
+      </div>
+   </div>
+            </div>
+        }
+    </div>
+</div>

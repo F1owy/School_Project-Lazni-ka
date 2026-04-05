@@ -1,0 +1,72 @@
+﻿@model Common.DTO.CartDTO
+@{
+    ViewData["Title"] = "Košík";
+}
+
+<h2>Váš košík</h2>
+
+@if (Model.Items.Any())
+{
+    <table border="1">
+    <tr>
+        <th>Produkt</th>
+   <th>Kategória</th>
+<th>Cena</th>
+         <th>Množstvo</th>
+           <th>Medzisúčet</th>
+       <th>Akcie</th>
+   </tr>
+ @foreach (var item in Model.Items)
+        {
+     <tr>
+    <td>@item.ProductName</td>
+         <td>@item.Category</td>
+  <td>@item.Price.ToString("N2") €</td>
+    <td>
+        <form method="post" asp-action="UpdateQuantity" style="display:inline;">
+           <input type="hidden" name="productId" value="@item.ProductId" />
+  <input type="number" name="quantity" value="@item.Quantity" min="1" style="width:60px;" />
+      <button type="submit">Aktualizovať</button>
+    </form>
+          </td>
+          <td>@item.Subtotal.ToString("N2") €</td>
+      <td>
+         <form method="post" asp-action="RemoveItem" style="display:inline;">
+         <input type="hidden" name="productId" value="@item.ProductId" />
+            <button type="submit">Odstrániť</button>
+     </form>
+      </td>
+  </tr>
+   }
+    </table>
+
+    <h3>Súhrn objednávky</h3>
+    <table border="1">
+ <tr>
+         <td>Počet položiek:</td>
+           <td>@Model.ItemsCount</td>
+  </tr>
+       <tr>
+       <td>Doprava:</td>
+   <td>Zadarmo</td>
+   </tr>
+  <tr>
+       <td><strong>Celkom:</strong></td>
+     <td><strong>@Model.TotalValue.ToString("N2") €</strong></td>
+  </tr>
+    </table>
+
+    <p>
+        <button type="button">Pokračovať k platbe</button>
+  </p>
+
+ <form method="post" asp-action="Clear">
+       <button type="submit">Vyprázdniť košík</button>
+    </form>
+}
+else
+{
+    <p><em>Košík je prázdny</em></p>
+}
+
+<p><a href="/Products">← Pokračovať v nákupe</a></p>

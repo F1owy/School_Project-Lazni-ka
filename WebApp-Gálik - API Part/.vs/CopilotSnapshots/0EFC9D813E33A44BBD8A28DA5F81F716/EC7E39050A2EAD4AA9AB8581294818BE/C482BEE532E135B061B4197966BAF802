@@ -1,0 +1,35 @@
+﻿using DataLayer.entities;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataLayer
+{
+    public class AppDbContext : DbContext
+    {
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
+
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<ProductEntity> Products { get; set; }
+        public DbSet<ProductImageEntity> ProductImages { get; set; }
+        public DbSet<CartEntity> Carts { get; set; }
+        public DbSet<CartItemEntity> CartItems { get; set; }
+        public DbSet<OrderEntity> Orders { get; set; }
+        public DbSet<OrderItemEntity> OrderItems { get; set; }
+        public DbSet<ReviewEntity> Reviews { get; set; }
+        public DbSet<ContactEntity> Contacts { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlite("Data Source=app.db");
+            }
+        }
+    }
+}

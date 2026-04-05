@@ -1,0 +1,70 @@
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\DataLayer.deps.json
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\DataLayer.runtimeconfig.json
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\DataLayer.exe
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\Common.deps.json
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\Common.dll
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\Common.pdb
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\DataLayer.dll
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\bin\Debug\net8.0\DataLayer.pdb
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.csproj.Up2Date
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.dll
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\Common.pdb
+C:\Luky\skola\4_rocnik\skj_apf\Lukas_Liscak_IVD\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\f1owf\Downloads\Lukas_Liscak_IVD 1\WebApp-Gálik\Common\obj\Debug\net8.0\Common.dll
+C:\Users\f1owf\Downloads\Lukas_Liscak_IVD 1\WebApp-Gálik\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\f1owf\Downloads\Lukas_Liscak_IVD 1\WebApp-Gálik\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\bin\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\bin\Debug\net8.0\DataLayer.dll
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.csproj.Up2Date
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WebApp-Gálik\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\bin\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\bin\Debug\net8.0\DataLayer.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.csproj.Up2Date
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - TOP DONE\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\bin\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\bin\Debug\net8.0\DataLayer.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.csproj.Up2Date
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\f1owf\Desktop\WEB APP Gálik\WebApp-Gálik - FUNCTIONAL\Common\obj\Debug\net8.0\ref\Common.dll

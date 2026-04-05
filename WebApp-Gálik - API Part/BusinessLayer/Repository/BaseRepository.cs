@@ -1,0 +1,60 @@
+﻿using BusinessLayer.Interfaces.Repository;
+using DataLayer;
+using DataLayer.entities;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BusinessLayer.Repository
+{
+    public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : BaseEntity
+    {
+        private readonly AppDbContext _context;
+        public BaseRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+        public virtual async Task<TEntity> CreateAsync(TEntity entity)
+        {
+            await _context.Set<TEntity>().AddAsync(entity);
+            return entity;
+        }
+
+        public virtual void Delete(TEntity entity)
+        {
+            _context.Set<TEntity>().Remove(entity);
+        }
+
+        public virtual async Task<List<TEntity>> GetAllUsersAsync()
+        {
+            return await _context.Set<TEntity>().ToListAsync();
+        }
+
+        public virtual async Task<TEntity?> GetByIdAsync(Guid id)
+        {
+            return await _context.Set<TEntity>().FindAsync(id);
+        }
+
+        public virtual async Task<TEntity?> GetByIdAsync(int id)
+        {
+            return await _context.Set<TEntity>().FirstOrDefaultAsync(e => e.id == id);
+        }
+
+        public virtual async Task<int> SaveChangesAsync()
+        {
+            return await _context.SaveChangesAsync();
+        }
+
+        public virtual void Update(TEntity entity)
+        {
+            _context.Set<TEntity>().Update(entity);
+        }
+        public virtual async Task<TEntity?> GetByPublicIdAsync(Guid publicId)
+        {
+            return await _context.Set<TEntity>().FirstOrDefaultAsync(e => e.PublicId == publicId);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@model Common.DTO.LoginDTO
+@{
+  ViewData["Title"] = "Prihl·senie";
+}
+
+<h2>Prihl·senie</h2>
+
+<form asp-action="Login" method="post">
+    <p>
+        <label for="Email">Email:</label><br />
+  <input type="email" asp-for="Email" required />
+   </p>
+    <p>
+        <label for="Password">Heslo:</label><br />
+        <input type="password" asp-for="Password" required />
+    </p>
+    <p>
+        <button type="submit">Prihl·siù sa</button>
+    </p>
+</form>
+
+<p>Nem·te ˙Ëet? <a asp-action="Register">Zaregistrujte sa</a></p>

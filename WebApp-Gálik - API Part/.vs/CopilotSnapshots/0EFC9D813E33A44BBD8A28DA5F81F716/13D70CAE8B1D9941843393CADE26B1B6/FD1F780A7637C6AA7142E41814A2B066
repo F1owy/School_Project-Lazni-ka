@@ -1,0 +1,107 @@
+﻿using BusinessLayer.Interfaces.Repository;
+using BusinessLayer.Interfaces.Services;
+using Common.DTO;
+using DataLayer.entities;
+using Lukas_Liscak_IVD.Models;
+
+namespace BusinessLayer.Services
+{
+    public class UserService : IUserService
+    {
+        private readonly IUserRepository _userRepository;
+
+        public UserService(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
+        public async Task<UserDTO> CreateAsync(UserDTO model)
+        {
+            var entity = new UserEntity();
+            {
+                entity.PublicId = Guid.NewGuid();
+                entity.Name = model.Name;
+                entity.Email = model.Email;
+
+                await _userRepository.CreateAsync(entity);
+                await _userRepository.SaveChangesAsync();
+                return new UserDTO()
+                {
+                    Email = entity.Email,
+                    Name = entity.Name,
+                    Password = entity.Password,
+                };
+            }
+        }
+
+        public async Task<bool> DeleteAsync(Guid id)
+        {
+            var user = await  _userRepository.GetByPublicIdAsync(id);
+            if (user == null)
+                return false;
+
+            _userRepository.Delete(user);
+            await _userRepository.SaveChangesAsync();
+
+            return true;
+        }
+
+        public async Task<List<UserDTO>> GetAllUsersAsync()
+        {
+            var userList = await _userRepository.GetAllUsersAsync();
+            var userModelList = new List<UserDTO>();
+
+            foreach (var user in userList)
+            {
+                var userModel = new UserDTO()
+                {
+                    PublicId = user.PublicId,
+                    Name = user.Name,
+                    Email = user.Email
+                };
+
+                userModelList.Add(userModel);
+            }
+
+            return userModelList;
+        }
+
+        public async Task<UpdateUserDTO?> GetByIdAsync(Guid id)
+        {
+            var user = await _userRepository.GetByPublicIdAsync(id);
+            var updateModel = new UpdateUserDTO()
+            {
+                UserPublicId = id,
+                Email = user.Email
+            };
+            return updateModel;
+        }
+
+        public async Task<bool> UpdateAsync(UserDTO model)
+        {
+            var user = await _userRepository.GetByPublicIdAsync(model.PublicId);
+            if (user != null)
+            {
+                user.Email = model.Email;
+
+                _userRepository.Update(user);
+                await _userRepository.SaveChangesAsync();
+            }
+            return true;
+        }
+
+        public Task<bool> UpdateAsync(UpdateUserDTO updateModel)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<bool> LoginAsync(LoginDTO dto)
+        {
+            return _userRepository.LoginAsync(dto.Email, dto.Password);
+        }
+
+        Task<bool> IUserService.LoginAsync(LoginDTO dto)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

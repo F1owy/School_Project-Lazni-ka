@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Produkty";
+}
+
+<h2>Produkty</h2>
+
+@if (ViewBag.Category != null)
+{
+    <p>Kategória: @ViewBag.Category</p>
+}
+
+<table border="1">
+    <tr>
+        <th>Názov</th>
+        <th>Popis</th>
+    <th>Cena</th>
+      <th>Akcie</th>
+   </tr>
+    @for (int i = 1; i <= 8; i++)
+   {
+        <tr>
+     <td>Produkt @i</td>
+           <td>Popis produktu</td>
+            <td>@(499 + i * 50) €</td>
+   <td>
+    <a href="/Products/Details/@Guid.NewGuid()">Detail</a> |
+       <a href="#">Do košíka</a>
+  </td>
+   </tr>
+    }
+</table>

@@ -1,0 +1,10 @@
+﻿@model UserFormModel
+
+<form asp-controller="Home" asp-action="form" class="form">
+    <label for="Name">Meno:</label>
+    <input type="text" asp-for="Name" placeholder="Meno" />
+    <label for="Email">Email:</label>
+    <input type="email" asp-for="Email" placeholder="Email" />
+
+    <button type="submit">Vytvoriť používateľa</button>
+</form>

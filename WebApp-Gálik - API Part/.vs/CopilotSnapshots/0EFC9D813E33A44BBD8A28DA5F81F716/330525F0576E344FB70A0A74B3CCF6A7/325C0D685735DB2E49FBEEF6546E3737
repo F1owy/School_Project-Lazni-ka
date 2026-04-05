@@ -1,0 +1,29 @@
+﻿/* Custom styles for PhotoShop EShop */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.product-card {
+    transition: all 0.3s ease;
+}
+
+.category-badge:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+}
+
+.hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}

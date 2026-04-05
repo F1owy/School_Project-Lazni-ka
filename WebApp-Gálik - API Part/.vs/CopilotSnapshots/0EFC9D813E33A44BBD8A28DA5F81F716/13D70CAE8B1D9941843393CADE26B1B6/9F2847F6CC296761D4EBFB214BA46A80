@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Detail produktu";
+}
+
+<div class="container py-4">
+    <div class="row">
+ <div class="col-md-6">
+   <div class="bg-secondary" style="height: 400px;"></div>
+  </div>
+   <div class="col-md-6">
+  <h1>Názov produktu</h1>
+         <p class="text-muted">Kategória: Fotoaparáty</p>
+    <h2 class="text-primary">1,299 €</h2>
+          <p>Detailný popis produktu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p><strong>Na sklade:</strong> 5 ks</p>
+  <div class="d-flex gap-2 mt-4">
+       <input type="number" class="form-control" value="1" min="1" style="width: 80px;">
+  <button class="btn btn-primary btn-lg">Do košíka</button>
+      </div>
+   </div>
+</div>
+</div>

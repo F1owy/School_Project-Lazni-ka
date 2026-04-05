@@ -1,0 +1,26 @@
+@model Common.DTO.RegisterDTO
+@{
+    ViewData["Title"] = "Registrácia";
+}
+
+<h2>Registrácia</h2>
+
+<form asp-action="Register" method="post">
+   <p>
+  <label for="Name">Meno:</label><br />
+  <input type="text" asp-for="Name" required />
+    </p>
+    <p>
+        <label for="Email">Email:</label><br />
+   <input type="email" asp-for="Email" required />
+   </p>
+ <p>
+     <label for="Password">Heslo:</label><br />
+ <input type="password" asp-for="Password" required />
+    </p>
+    <p>
+   <button type="submit">Vytvori úèet</button>
+  </p>
+</form>
+
+<p>U máte úèet? <a asp-action="Login">Prihláste sa</a></p>

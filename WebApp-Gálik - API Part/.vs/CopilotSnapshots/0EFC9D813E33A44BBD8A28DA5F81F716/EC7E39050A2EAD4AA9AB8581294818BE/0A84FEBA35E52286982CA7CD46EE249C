@@ -1,0 +1,31 @@
+﻿@model Common.DTO.LoginDTO
+@{
+    ViewData["Title"] = "Prihlásenie";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+   <div class="col-md-5">
+ <div class="card shadow">
+      <div class="card-header bg-primary text-white text-center">
+       <h4>Prihlásenie</h4>
+            </div>
+ <div class="card-body p-4">
+    <form asp-action="Login" method="post">
+      <div class="mb-3">
+       <label class="form-label">Email</label>
+     <input type="email" class="form-control" asp-for="Email" required />
+      </div>
+     <div class="mb-3">
+<label class="form-label">Heslo</label>
+   <input type="password" class="form-control" asp-for="Password" required />
+      </div>
+     <button type="submit" class="btn btn-primary w-100">Prihlásiť sa</button>
+              </form>
+   <hr>
+         <p class="text-center mb-0">Nemáte účet? <a asp-action="Register">Zaregistrujte sa</a></p>
+     </div>
+   </div>
+        </div>
+</div>
+</div>

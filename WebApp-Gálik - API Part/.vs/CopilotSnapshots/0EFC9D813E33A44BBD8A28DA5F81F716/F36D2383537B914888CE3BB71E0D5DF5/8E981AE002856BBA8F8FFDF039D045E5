@@ -1,0 +1,47 @@
+﻿@model List<DataLayer.entities.ProductEntity>
+@{
+    ViewData["Title"] = "Produkty";
+}
+
+<h2>Produkty</h2>
+
+@if (ViewBag.Category != null)
+{
+    <p>Kategória: @ViewBag.Category</p>
+}
+
+@if (Model.Any())
+{
+    <table border="1">
+        <tr>
+    <th>Názov</th>
+   <th>Kategória</th>
+            <th>Cena</th>
+      <th>Na sklade</th>
+   <th>Akcie</th>
+        </tr>
+    @foreach (var product in Model)
+        {
+  <tr>
+              <td>@product.Name</td>
+        <td>@product.Category</td>
+        <td>@product.Price.ToString("N2") €</td>
+    <td>@product.StockAmount ks</td>
+   <td>
+         <a href="/Products/Details/@product.id">Detail</a> |
+    <form method="post" asp-controller="Cart" asp-action="AddItem" style="display:inline;">
+   <input type="hidden" name="productId" value="@product.id" />
+         <input type="hidden" name="quantity" value="1" />
+        <button type="submit">Do košíka</button>
+        </form>
+                </td>
+         </tr>
+        }
+    </table>
+}
+else
+{
+  <p><em>Žiadne produkty</em></p>
+}
+
+<p><a href="/">← Späť na domov</a></p>

@@ -1,0 +1,47 @@
+@model Common.DTO.ProductDTO
+@{
+    ViewData["Title"] = "Upraviù produkt";
+}
+
+<h2>Upraviù produkt</h2>
+
+<form method="post" asp-action="EditProduct">
+   <input type="hidden" asp-for="Id" />
+ 
+    <p>
+   <label for="Name">N·zov produktu:</label><br />
+    <input type="text" asp-for="Name" required />
+   </p>
+
+   <p>
+   <label for="Description">Popis:</label><br />
+    <textarea asp-for="Description" rows="4" cols="50"></textarea>
+    </p>
+
+   <p>
+    <label for="Price">Cena (Ä):</label><br />
+      <input type="number" asp-for="Price" step="0.01" min="0" required />
+    </p>
+
+ <p>
+        <label for="Category">KategÛria:</label><br />
+  <select asp-for="Category">
+ <option value="1">Fotoapar·ty</option>
+   <option value="2">ObjektÌvy</option>
+          <option value="3">Svetl·</option>
+   <option value="4">PrÌsluöenstvo</option>
+       <option value="5">Audio</option>
+       </select>
+    </p>
+
+  <p>
+    <label for="StockAmount">PoËet na sklade:</label><br />
+       <input type="number" asp-for="StockAmount" min="0" required />
+ </p>
+
+    <p>
+     <button type="submit">Uloûiù zmeny</button>
+    </p>
+</form>
+
+<p><a href="/Admin/Products">? Sp‰ù na zoznam</a></p>

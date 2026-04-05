@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\lukas_liscak_ivd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|solutionrelative:lukas_liscak_ivd\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\common\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|solutionrelative:common\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\lukas_liscak_ivd\\controllers\\ulohycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|solutionrelative:lukas_liscak_ivd\\controllers\\ulohycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\cartentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\cartentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\enums\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\enums\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\enums\\categoryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\enums\\categoryenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\interfaces\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\cartitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\cartitementity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\common\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|solutionrelative:common\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\common\\dto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBE5462-5510-4FBB-B035-C93C667A7894}|Common\\Common.csproj|solutionrelative:common\\dto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\reviewentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\reviewentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\businesslayer\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4196E0D4-E985-48E5-8429-52112AD6BE12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\productimageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\productimageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\entities\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\enums\\sizeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\enums\\sizeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\lukas_liscak_ivd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11AD5F90-070B-4314-B42C-3131C8C7D884}|Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj|solutionrelative:lukas_liscak_ivd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|c:\\luky\\skola\\4_rocnik\\skj_apf\\lukas_liscak_ivd\\datalayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8A6C90-59E5-4C24-B9BC-ADA8975057DA}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UlohyController.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Controllers\\UlohyController.cs",
+              "RelativeDocumentMoniker": "Lukas_Liscak_IVD\\Controllers\\UlohyController.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Controllers\\UlohyController.cs",
+              "RelativeToolTip": "Lukas_Liscak_IVD\\Controllers\\UlohyController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAewHgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T07:08:55.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\UserService.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:54:26.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:28:34.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Common\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T06:32:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\CartEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\CartEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\CartEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\CartEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:59:39.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lukas_Liscak_IVD\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lukas_Liscak_IVD\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAtwDMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:57:51.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "BusinessLayer\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:30:47.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleEnum.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\RoleEnum.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Enums\\RoleEnum.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\RoleEnum.cs",
+              "RelativeToolTip": "DataLayer\\Enums\\RoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:56:58.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryEnum.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\CategoryEnum.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Enums\\CategoryEnum.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\CategoryEnum.cs",
+              "RelativeToolTip": "DataLayer\\Enums\\CategoryEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:57:26.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\UserEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\UserEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:54:00.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:54:12.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Repository\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Repository\\IBaseRepository.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Interfaces\\Repository\\IBaseRepository.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Repository\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:54:28.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartItemEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\CartItemEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\CartItemEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\CartItemEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\CartItemEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:00:02.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Common\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T06:34:03.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateUserDTO.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\UpdateUserDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTO\\UpdateUserDTO.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\DTO\\UpdateUserDTO.cs",
+              "RelativeToolTip": "Common\\DTO\\UpdateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:53:53.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReviewEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ReviewEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\ReviewEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ReviewEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\ReviewEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:01:10.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "BusinessLayer\\Repository\\BaseRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:54:53.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\BaseEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:55:59.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\ProductEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ProductEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\ProductEntity.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:59:11.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductImageEntity.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ProductImageEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\entities\\ProductImageEntity.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\entities\\ProductImageEntity.cs",
+              "RelativeToolTip": "DataLayer\\entities\\ProductImageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:00:40.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SizeEnum.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\SizeEnum.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Enums\\SizeEnum.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Enums\\SizeEnum.cs",
+              "RelativeToolTip": "DataLayer\\Enums\\SizeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T22:58:20.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Program.cs",
+              "RelativeDocumentMoniker": "Lukas_Liscak_IVD\\Program.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Program.cs",
+              "RelativeToolTip": "Lukas_Liscak_IVD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:37:01.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Program.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Program.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\Program.cs",
+              "RelativeToolTip": "DataLayer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:54:09.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\AppDbContext.cs",
+              "ToolTip": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\AppDbContext.cs",
+              "RelativeToolTip": "DataLayer\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:53:56.394Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.btn-primary {
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 10px ;
+    text-decoration: none;
+    border: solid black 1px;
+    color: black;
+
+}
+
+.btn-primary:hover {
+    background-color: black !important;
+    color: white;
+}
+
+.person-card {
+    margin: auto;
+    border: solid black 1px;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px
+    
+}
+.person-card:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+#my-image {
+    margin-top: 15px;
+    width: 100px;
+    border: solid black 1px;
+    border-radius: 100%;
+}
+.person-table {
+    margin: auto;
+}
+th {
+    border: solid grey 1px;
+}
+tr:hover{
+    color:purple;
+    Background-color:mediumpurple;
+}
+
+.user-card {
+    border: solid black 1px;
+    max-width:400px;
+}
+
+.user-card img {
+    border-radius: 100%;
+    width: 50px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.container > partial {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.uloha8-border-red {
+    border-color: red !important;
+}
+
+.uloha8-border-black {
+    border-color: black !important;
+}

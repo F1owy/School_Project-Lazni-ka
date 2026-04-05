@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Super Stránkoš";
+}
+@model List<UserDTO>
+
+<div class="text-center">
+    <div class="container">
+        @foreach (var user in Model)
+        {
+            <partial name="UserCard" model="user"></partial>
+        }
+    </div>
+    
+
+</div>

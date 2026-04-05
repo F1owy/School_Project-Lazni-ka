@@ -1,0 +1,39 @@
+﻿@model List<UserDTO>
+
+@{
+    ViewData["Title"] = "Super Stránkoš";
+}
+
+<div class="mt-4">
+    <a href="@Url.Action("Register")" class="btn btn-secondary">Späť na formulár</a>
+</div>
+
+@foreach (var user in Model)
+{
+    <div class="text-center" id="boxpozadie">
+        <h2>Vitaj @user.Name</h2>
+
+        <div class="card mt-4 simple-card">
+            <h4>Informácie o tebe</h4>
+            <p><strong>Meno:</strong> @user.Name</p>
+            <p><strong>Priezvisko:</strong> @user.Surname</p>
+            <p><strong>Adresa:</strong> @user.Address</p>
+            <p><strong>Email:</strong> @user.Email</p>
+            <p><strong>Telefónne číslo:</strong> @user.Phone</p>
+            <p><strong>Vek:</strong> @user.Age rokov</p>
+            <p><strong>Heslo:</strong> @user.Password</p>
+            @if (user.ToDo != null && user.ToDo.Count > 0)
+            {
+                <div style="margin-top:8px;">
+                    <p><strong>ToDo list:</strong></p>
+                    <ul>
+                        @foreach (var thing in user.ToDo)
+                        {
+                            <li>@thing</li>
+                        }
+                    </ul>
+                </div>
+            }
+        </div>
+    </div>
+}

@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Super Stránkoš";
+}
+
+<div class="text-center" id="boxpozadie">
+    <div class="FormDiv">
+        <form method="post" asp-controller="Ulohy" asp-action="Register" class="w-100" style="max-width: 500px;">
+            <div class="mb-3">
+                <label class="form-label">First Name</label>
+                <input name="Name" class="form-control" placeholder="First Name" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Last Name</label>
+                <input name="Surname" class="form-control" placeholder="Last Name" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input name="Email" type="email" class="form-control" placeholder="Email" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input name="Password" type="password" class="form-control" placeholder="Password" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone Number</label>
+                <input name="Phone" class="form-control" placeholder="Phone Number" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <input name="Address" class="form-control" placeholder="Address" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Age</label>
+                <input name="Age" class="form-control" placeholder="Age" />
+            </div>
+
+            <div class="form-field">
+                <label for="ToDoInput">ToDo položka:</label>
+                <input id="ToDoInput" type="text" placeholder="Zadajte úlohu" />
+                <button type="button" id="AddToDoBtn" class="btn btn-primary">+</button>
+                <div id="ToDoListPreview" style="margin-top:8px;"></div>
+            </div>
+
+            <div id="ToDoHidden"></div>
+
+            <button type="submit" class="btn btn-success w-100">Register</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const input = document.getElementById("ToDoInput");
+        const SeeDiv = document.getElementById("ToDoHidden");
+        let zoz =[]
+        document.getElementById('AddToDoBtn').addEventListener('click', () => {
+            zoz.push(input.value);
+            for (const thing of zoz){
+                const newP = document.createElement("p");
+                const newContent = document.createTextNode(thing);
+                newP.appendChild(newContent);
+                SeeDiv.appendChild(newP);
+            }
+        });
+        
+    </script>
+}

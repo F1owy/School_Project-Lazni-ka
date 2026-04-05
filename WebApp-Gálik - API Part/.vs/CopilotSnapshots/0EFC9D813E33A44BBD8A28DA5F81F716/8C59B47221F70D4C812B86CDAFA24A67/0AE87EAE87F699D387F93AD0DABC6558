@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PhotoShop</title>
+</head>
+<body>
+    <header>
+      <h1><a href="/">PhotoShop</a></h1>
+     <nav>
+            <a href="/Products">Produkty</a> |
+        <a href="/Products?category=1">Fotoaparáty</a> |
+    <a href="/Products?category=2">Objektívy</a> |
+     <a href="/Products?category=3">Svetlá</a> |
+          <a href="/Products?category=4">Príslušenstvo</a> |
+     <a href="/Products?category=5">Audio</a> |
+      <a href="/Cart">Košík</a> |
+    <a href="/Account/Login">Prihlásiť</a> |
+  <a href="/Account/Register">Registrácia</a> |
+<a href="/Admin/Login"><strong>Admin</strong></a>
+        </nav>
+        <hr />
+    </header>
+
+    <main>
+@RenderBody()
+    </main>
+
+    <footer>
+     <hr />
+  <p>&copy; 2024 PhotoShop</p>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

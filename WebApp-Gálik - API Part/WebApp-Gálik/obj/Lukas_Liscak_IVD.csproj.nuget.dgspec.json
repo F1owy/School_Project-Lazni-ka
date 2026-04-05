@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj": {}
+  },
+  "projects": {
+    "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\lukyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj"
+              },
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\lukyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\lukyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj",
+        "projectName": "Lukas_Liscak_IVD",
+        "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD.csproj",
+        "packagesPath": "C:\\Users\\lukyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Lukas_Liscak_IVD\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\Common\\Common.csproj"
+              },
+              "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Luky\\skola\\4_rocnik\\skj_apf\\Lukas_Liscak_IVD\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

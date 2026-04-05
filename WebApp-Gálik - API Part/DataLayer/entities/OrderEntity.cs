@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataLayer.entities
+{
+    public class OrderEntity : BaseEntity
+    {
+        public int UserId { get; set; }
+        public UserEntity User { get; set; } = null!;
+        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
+        public float TotalAmount { get; set; }
+        public string Status { get; set; } = "Pending";
+        public ICollection<OrderItemEntity> OrderItems { get; set; } = new List<OrderItemEntity>();
+    }
+}
+

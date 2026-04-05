@@ -1,0 +1,53 @@
+﻿using BusinessLayer.Interfaces.Services;
+using Common.DTO;
+using Microsoft.AspNetCore.Mvc;
+
+namespace WebApp.Controllers
+{
+    public class CartController : Controller
+    {
+        private readonly ICartService _cartService;
+
+        // Temporary: Using a fixed userId until authentication is implemented
+        private const int TempUserId = 1;
+
+        public CartController(ICartService cartService)
+        {
+            _cartService = cartService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var cart = await _cartService.GetCartAsync(TempUserId);
+            return View(cart);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddItem(int productId, int quantity = 1)
+        {
+            await _cartService.AddItemAsync(TempUserId, productId, quantity);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveItem(int productId)
+        {
+            await _cartService.RemoveItemAsync(TempUserId, productId);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateQuantity(int productId, int quantity)
+        {
+            await _cartService.UpdateQuantityAsync(TempUserId, productId, quantity);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Clear()
+        {
+            await _cartService.ClearCartAsync(TempUserId);
+            return RedirectToAction("Index");
+        }
+    }
+}

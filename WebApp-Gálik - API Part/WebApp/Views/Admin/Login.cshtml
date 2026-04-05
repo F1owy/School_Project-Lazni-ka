@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Admin prihl·senie";
+}
+
+<h2>Admin Panel - Prihl·senie</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color: red;"><strong>@ViewBag.Error</strong></p>
+}
+
+<form method="post" asp-action="Login">
+    <p>
+        <label for="password">Heslo:</label><br />
+     <input type="password" name="password" id="password" required />
+    </p>
+    <p>
+        <button type="submit">Vst˙più do Admin panelu</button>
+    </p>
+</form>
+
+<p><a href="/">? Sp‰ù na domov</a></p>

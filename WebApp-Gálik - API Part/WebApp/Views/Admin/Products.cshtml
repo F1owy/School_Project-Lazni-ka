@@ -1,0 +1,47 @@
+@model List<Common.DTO.ProductDTO>
+@{
+    ViewData["Title"] = "Spr·va produktov";
+}
+
+<h2>Spr·va produktov</h2>
+
+<p>
+    <a href="/Admin/CreateProduct">+ Pridaù nov˝ produkt</a> |
+    <a href="/Admin/Logout">Odhl·siù sa z Admin</a>
+</p>
+
+@if (Model.Any())
+{
+    <table border="1">
+ <tr>
+   <th>ID</th>
+     <th>N·zov</th>
+     <th>KategÛria</th>
+         <th>Cena</th>
+     <th>Na sklade</th>
+    <th>Akcie</th>
+ </tr>
+   @foreach (var product in Model)
+     {
+   <tr>
+            <td>@product.Id</td>
+     <td>@product.Name</td>
+  <td>@product.CategoryName</td>
+ <td>@product.Price.ToString("N2") Ä</td>
+  <td>@product.StockAmount ks</td>
+        <td>
+             <a href="/Admin/EditProduct/@product.Id">Upraviù</a> |
+     <form method="post" asp-action="DeleteProduct" asp-route-id="@product.Id" style="display:inline;">
+           <button type="submit" onclick="return confirm('Naozaj chcete zmazaù tento produkt?')">Zmazaù</button>
+       </form>
+  </td>
+     </tr>
+        }
+ </table>
+}
+else
+{
+    <p><em>éiadne produkty</em></p>
+}
+
+<p><a href="/">? Sp‰ù na domov</a></p>

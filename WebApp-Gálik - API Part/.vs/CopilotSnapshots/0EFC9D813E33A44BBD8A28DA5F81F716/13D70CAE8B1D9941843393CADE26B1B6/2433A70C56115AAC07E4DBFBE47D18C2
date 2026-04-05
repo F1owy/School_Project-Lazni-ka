@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Košík";
+}
+
+<h2>Váš košík</h2>
+
+<table border="1">
+    <tr>
+      <th>Produkt</th>
+ <th>Kategória</th>
+        <th>Množstvo</th>
+ <th>Cena</th>
+      <th>Akcia</th>
+    </tr>
+    <tr>
+ <td>Canon EOS R5</td>
+      <td>Fotoaparáty</td>
+      <td><input type="number" value="1" min="1" /></td>
+        <td>3,899 €</td>
+  <td><a href="#">Odstrániť</a></td>
+    </tr>
+</table>
+
+<p><em>Košík je prázdny</em></p>
+
+<h3>Súhrn objednávky</h3>
+<table border="1">
+    <tr>
+     <td>Medzisúčet:</td>
+        <td>3,899 €</td>
+ </tr>
+    <tr>
+        <td>Doprava:</td>
+        <td>Zadarmo</td>
+    </tr>
+  <tr>
+ <td><strong>Celkom:</strong></td>
+    <td><strong>3,899 €</strong></td>
+  </tr>
+</table>
+
+<p><button type="button">Pokračovať k platbe</button></p>
+
+<p><a href="/Products">← Pokračovať v nákupe</a></p>

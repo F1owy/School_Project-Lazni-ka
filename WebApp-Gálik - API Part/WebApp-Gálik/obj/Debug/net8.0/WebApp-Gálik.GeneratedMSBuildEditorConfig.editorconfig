@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp-Gálik
+build_property.RootNamespace = WebApp-Gálik
+build_property.ProjectDir = C:\Users\f1owf\Downloads\Lukas_Liscak_IVD 1\WebApp-Gálik\WebApp-Gálik\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\f1owf\Downloads\Lukas_Liscak_IVD 1\WebApp-Gálik\WebApp-Gálik
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Home/formCreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxmb3JtQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Home/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Home/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGExLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGEyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGE1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGE2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGE3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGE4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Uloha9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVWxvaGE5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/UserCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcVXNlckNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Ulohy/Zobraz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVWxvaHlcWm9icmF6LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f1owf/Downloads/Lukas_Liscak_IVD 1/WebApp-Gálik/WebApp-Gálik/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mtr4pwjgf6

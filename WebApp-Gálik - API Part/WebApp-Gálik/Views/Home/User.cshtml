@@ -1,0 +1,11 @@
+﻿@model UpdateUserDTO
+
+
+<form asp-controller="Home" asp-action="Update" class="form">
+    <input type="hidden" asp-for="UserPublicId" />
+
+    <label for="Email">Email:</label>
+    <input type="email" asp-for="Email" placeholder="Email" />
+
+    <button type="submit">update email</button>
+</form>
