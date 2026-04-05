@@ -1,0 +1,77 @@
+.admin-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #1a1d23;
+}
+
+.admin-login-container {
+  background-color: #282c34;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+.admin-login-container h2 {
+  color: #61dafb;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.admin-password-input {
+  padding: 0.6rem;
+  border: 1px solid #3a3f47;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: #ffffff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.admin-password-input:focus {
+  border-color: #61dafb;
+}
+
+.admin-password-input::placeholder {
+  color: #808080;
+}
+
+.admin-submit-btn {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-submit-btn:hover {
+  background-color: #4fa8c5;
+}
